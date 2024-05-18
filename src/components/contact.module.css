@@ -1,0 +1,116 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/c1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ‘Arial Narrow’, sans-serif;
+    color: hsl(40, 54%, 57%);
+    font-size: 50px;
+    text-transform: capitalize;
+    text-shadow: 0 0 10px black;
+    font-weight: bolder;
+}
+
+.para_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    margin-top: 50px;
+    width: 80%;
+    font-family: ‘Arial Narrow’, sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .head {
+        font-size: 30px;
+    }
+
+    .para {
+        font-size: 15px;
+    }
+}
+.heading{
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    font-family: ‘Arial Narrow’, sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    text-transform: capitalize;
+    text-shadow: 0 0 10px black;
+    font-weight: bolder;
+}
+.heading span{
+    color:hsl(40, 54%, 57%) ;
+}
+.main2{
+    background-color: black;
+}
+.cont{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+.cont input,textarea{
+    width: 60%;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid hsl(40, 54%, 57%);
+    color: white;
+}
+.cont button{
+    
+    text-decoration: none;
+     padding: 10px 50px;
+     text-transform: uppercase;
+     font-family: ‘Arial Narrow’, sans-serif;
+     font-size: 18px;
+     background-color: hsl(40, 54%, 57%);
+     color: rgb(0, 0, 0);
+     border: 2px solid #CDA657;
+     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+.cont button:hover {
+    
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.431);
+    color: #CDA657;
+}
+
+@media screen and (max-width:480px) {
+    .heading {
+        font-size: 30px;
+    }
+}

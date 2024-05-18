@@ -1,0 +1,6 @@
+*{
+    padding: 0;
+    margin: 0;
+    scrollbar-color: hsl(40, 54%, 57%) black;
+    cursor: url('\src\assets\icon.png'), auto;
+}
